@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/loginmodule"
+                android:background="#E65A5A"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Login Module"
+                android:onClick="ClickLoginmodule"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E46969"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Login/Signup Module"
+                android:onClick="ClickLoginmodule"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#D15050"
+                android:gravity="center"
+                android:id="@+id/tvSociallogin"
+                android:textColor="@color/white"
+                android:text="Social Login Module" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CF5D5D"
+                android:gravity="center"
+                android:id="@+id/btnNotification"
+                android:textColor="@color/white"
+                android:text="Notification Module" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC4848"
+                android:gravity="center"
+                android:id="@+id/tvImage"
+                android:textColor="@color/white"
+                android:text="Camera &amp; Images picker" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC5454"
+                android:gravity="center"
+                android:id="@+id/tvApicall"
+                android:textColor="@color/white"
+                android:text="Api call module" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC4848"
+                android:gravity="center"
+                android:id="@+id/tvRoomModule"
+                android:textColor="@color/white"
+                android:text="Room Database" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC5454"
+                android:gravity="center"
+                android:id="@+id/tvLanguageChange"
+                android:textColor="@color/white"
+                android:text="Language change module" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B53F3F"
+                android:gravity="center"
+                android:id="@+id/tvCommonui"
+                android:textColor="@color/white"
+                android:text="Comon UI"
+                />
+
+            <TextView
+                android:id="@+id/tvComplexui"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B35050"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Complex module" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC4848"
+                android:gravity="center"
+                android:id="@+id/tvhelper"
+                android:textColor="@color/white"
+                android:text="Helper "
+                />
+
+            <TextView
+                android:id="@+id/tcLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#BC5454"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Location module" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#A84242"
+                android:gravity="center"
+                android:id="@+id/tvDialoge"
+                android:textColor="@color/white"
+                android:text="CustomDialogs &amp; loaders "
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

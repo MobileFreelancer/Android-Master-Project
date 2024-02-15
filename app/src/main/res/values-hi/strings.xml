@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoProjectAndroid</string>
+    <string name="title_activity_login">लॉगिन एक्टिविटी</string>
+    <string name="prompt_email">ईमेल</string>
+    <string name="prompt_password">पासवर्ड</string>
+    <string name="action_sign_in">साइन इन या रजिस्टर करें</string>
+    <string name="action_sign_in_short">साइन इन</string>
+    <string name="welcome">"स्वागत है!"</string>
+    <string name="invalid_username">अवैध उपयोगकर्ता नाम</string>
+    <string name="invalid_password">पासवर्ड 5 अक्षरों से अधिक होना चाहिए</string>
+    <string name="login_failed">"लॉगिन असफल हुआ"</string>
+
+    <string name="facebook_app_id">2502720009860742</string>
+    <string name="fb_login_protocol_scheme">fb2502720009860742</string>
+    <string name="facebook_client_token">983a0d4b2dbd75fa5e47df3ad3cbe81d</string>
+
+
+    <string name="social_login">सामाजिक लॉगिन</string>
+    <string name="facebook_login">फेसबुक लॉगिन</string>
+    <string name="google_login">गूगल लॉगिन</string>
+    <string name="password">पासवर्ड</string>
+    <string name="username">उपयोगकर्ता नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="login">लॉगिन</string>
+    <string name="generate_notification">नोटिफिकेशन उत्पन्न करें</string>
+    <string name="change_laguage">भाषा बदलें</string>
+</resources>

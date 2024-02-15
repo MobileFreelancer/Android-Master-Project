@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "765291422247",
+    "project_id": "ciyashopflutter",
+    "storage_bucket": "ciyashopflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765291422247:android:b7eadd4af26d7dab1d2402",
+        "android_client_info": {
+          "package_name": "com.example.ciyashopflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765291422247-j5gjf0orddm4lre68bt168cfdobktlhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ciyashopflutter",
+            "certificate_hash": "cdbd16fd6f08fe2ed584182d5de8419d0bd98ca0"
+          }
+        },
+        {
+          "client_id": "765291422247-upq92acam2gpnracvon2pe3tmna8hteh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm63LcpvFDV3ACISoCRw_iLv8XmRtGm-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765291422247-h9mqtrc59s7eor75p4ao3vrp7sf5815i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765291422247-149clk026mnt2g152j840190b9e4ma1u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ciyashop.ciyashop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765291422247:android:c9a15399c5d1b25e1d2402",
+        "android_client_info": {
+          "package_name": "com.example.demoprojectandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765291422247-np5irfelhc2cgpouh7iunqoadtc77b17.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demoprojectandroid",
+            "certificate_hash": "4cac73198d17e1024944a98a2fedd6f50aa166e0"
+          }
+        },
+        {
+          "client_id": "765291422247-upq92acam2gpnracvon2pe3tmna8hteh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm63LcpvFDV3ACISoCRw_iLv8XmRtGm-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765291422247-h9mqtrc59s7eor75p4ao3vrp7sf5815i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765291422247-149clk026mnt2g152j840190b9e4ma1u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ciyashop.ciyashop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

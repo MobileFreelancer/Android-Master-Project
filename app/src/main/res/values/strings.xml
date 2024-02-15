@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DemoProjectAndroid</string>
+
+    <string name="one_signal_key" translatable="false">fecf6338-8cb2-41ed-a932-e7adebc0578d</string>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+
+
+    <string name="facebook_app_id">2502720009860742</string>
+    <string name="fb_login_protocol_scheme">fb2502720009860742</string>
+    <string name="facebook_client_token">983a0d4b2dbd75fa5e47df3ad3cbe81d</string>
+
+
+    <string name="login_failed">"Login failed"</string>
+    <string name="social_login">Social login</string>
+    <string name="facebook_login">Facebook login</string>
+    <string name="google_login">Google login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="generate_notification">Generate notification</string>
+    <string name="change_laguage">Change laguage</string>
+
+</resources>
