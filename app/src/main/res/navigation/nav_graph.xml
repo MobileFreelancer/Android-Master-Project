@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.demoprojectandroid.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_googlePayFragment"
+            app:destination="@id/googlePayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_stripePayFragment"
+            app:destination="@id/stripePayFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_payPalFragment"
+            app:destination="@id/payPalFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_inAppPurchaseFragment"
+            app:destination="@id/inAppPurchaseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_dynamicLinkFragment"
+            app:destination="@id/dynamicLinkFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_razorPayFragment"
+            app:destination="@id/razorPayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/googlePayFragment"
+        android:name="com.example.demoprojectandroid.ui.google_pay.GooglePayFragment"
+        tools:layout="@layout/fragment_google_pay" />
+    <fragment
+        android:id="@+id/payPalFragment"
+        android:name="com.example.demoprojectandroid.ui.paypal_pay.PayPalFragment"
+        tools:layout="@layout/fragment_pay_pal" />
+    <fragment
+        android:id="@+id/stripePayFragment"
+        android:name="com.example.demoprojectandroid.ui.stripe_pay.StripePayFragment"
+        tools:layout="@layout/fragment_stripe_pay" />
+    <fragment
+        android:id="@+id/inAppPurchaseFragment"
+        android:name="com.example.demoprojectandroid.ui.in_app_purchase.InAppPurchaseFragment"
+        tools:layout="@layout/fragment_in_app_purchase" />
+    <fragment
+        android:id="@+id/dynamicLinkFragment"
+        android:name="com.example.demoprojectandroid.ui.dynamic_link.DynamicLinkFragment"
+        tools:layout="@layout/fragment_dynamic_link" />
+    <fragment
+        android:id="@+id/razorPayFragment"
+        android:name="com.example.demoprojectandroid.ui.razor_pay.RazorPayFragment"
+        android:label="fragment_razor_pay"
+        tools:layout="@layout/fragment_razor_pay" />
+</navigation>

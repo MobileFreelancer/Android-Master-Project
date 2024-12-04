@@ -16,6 +16,7 @@ import com.example.demoprojectandroid.NotificationDemo.NotificationActivity
 import com.example.demoprojectandroid.Room.RoomActivity
 import com.example.demoprojectandroid.SocialLogin.SocialLoginActivity
 import com.example.demoprojectandroid.databinding.ActivityMainBinding
+import com.example.demoprojectandroid.paymentgateway.MainActivity3
 
 class MainActivity : AppCompatActivity() {
 
@@ -63,6 +64,10 @@ class MainActivity : AppCompatActivity() {
         })
         binding.tvDialoge.setOnClickListener(View.OnClickListener {
             startActivity(Intent(this, CustomDialogsandloaderActivity::class.java));
+        })
+
+        binding.tvPayment.setOnClickListener(View.OnClickListener {
+            startActivity(Intent(this, MainActivity3::class.java));
         })
     }
 }
